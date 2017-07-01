@@ -10,10 +10,6 @@ ApplicationWindow {
     title: qsTr("Hello World")
     color: "#66ccff"
 
-//    Label {
-//        text: qsTr("Second page")
-//        anchors.centerIn: parent
-//    }
     Rectangle {
         id: rectIn
         anchors.top: parent.top
@@ -50,22 +46,4 @@ ApplicationWindow {
             height: parent.width>parent.height?parent.height:parent.width
         }
     }
-/*
-    Rectangle {
-        id: rectOut
-        anchors.bottom: parent.bottom
-        anchors.left: parent.left
-        anchors.right: parent.right
-        color: "#FFFFFF"
-        width: parent.width
-        height: 48
-
-        TextInput {
-            id: strOut
-            text: qsTr("a")
-            anchors.centerIn: parent
-            horizontalAlignment: TextInput.AlignHCenter
-        }
-    }
-*/
 }
